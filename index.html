@@ -5,7 +5,7 @@
 <title>feliz cumpleaños dad</title>
 <meta name="keywords" content="feliz cumpleaños" />
 <meta name="description" content="feliz cumpleaños de parte de tu familia papá" />
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <style>
 
 body{
@@ -56,7 +56,11 @@ body{
     background-position: 0 50%;
     }
 }
-
+img{
+    border-radius: 8px;
+    margin: 0.5em auto;
+    width: 50%;
+}
 a{
     color: #000;
 }
@@ -84,6 +88,12 @@ a{
     font-weight: bold;
     color: #000;
     font-style: normal;
+
+}
+.img__container{
+    width: 100%;
+}
+..img__container img{
 }
 </style>
 
@@ -94,6 +104,13 @@ a{
 <div class="contenedor">
  <div class="contenedor__contenido">
     <div class="contenido__sub">
+    <div class="img__container">
+    <img src="fotos/imagen1.jpg" alt="familia muñiz" />
+    <img src="fotos/imagen5.jpg" alt="familia muñiz" />
+    <img src="fotos/imagen4.jpg" alt="familia muñiz" />
+    </div>
+    </div>
+    <div class="contenido__sub" data-aos="flip-left">
      <div>
         <h1>Feliz cumpleaños papá</h1>
         <p>Realizado por</p>
@@ -103,36 +120,40 @@ a{
         <p><a href="#miquel">Miquel</a></p>
      </div>
     </div>
-    <div class="contenido__sub"id="randy">
+    <div class="contenido__sub"id="randy" data-aos="flip-left">
      <div>
         <h1>Randy</h1>
         <p>Hola papi Feliz cumpleaños hoy es tu dia especial y yo solo te deseo lo mejor y que hoy no te enojes y que no molestes tanto y que por fin te dieras cuenta que Miquel ve meme.</p>
+        <img src="fotos/imagen10.jpg" alt="familia muñiz" style="height: 35%"/>
      </div>
     </div>
-    <div class="contenido__sub" id="dianka">
+    <div class="contenido__sub" id="dianka" data-aos="flip-left">
      <div>
         <h1>Dianka</h1>
         <p>Te quiero mucho</p>
         <p>Abuelo snorlax</p>
+        <img src="fotos/imagen2.jpg" alt="familia muñiz" />
      </div>
     </div>
-    <div class="contenido__sub" id="diandra">
+    <div class="contenido__sub" id="diandra" data-aos="flip-left">
      <div>
         <h1>Diandra</h1>
+        <p>escribo esto por  ser uno de los días más especial para la familia, pues si es tu cumpleaños y deseo que dios te de muchos años de vida, deseo que siempre vallas de la mano de papa dios para que sigas siendo hombre de bien, feliz cumpleaños amor 😘</p>
+        <img src="fotos/imagen9.jpg" alt="familia muñiz" style="height: 25%" />
      </div>
     </div>
-    <div class="contenido__sub" id="miquel">
+    <div class="contenido__sub" id="miquel" data-aos="flip-left">
      <div>
         <h1>Miquel</h1>
         <p>feliz cumple dad espero que te guste el regalo que es con mucho cariño para ti</p>
         <p>Espero que cumplas mas años</p>
-        
+        <img src="fotos/imagen11.jpg" alt="familia muñiz" />
      </div>
     </div>
-    <div class="contenido__sub" id="cumple">
+    <div class="contenido__sub" id="cumple" data-aos="flip-left">
      <div>
         <h2 class="palabras">
-            Feliz cumpleaños <br>
+            <br>
             <span class="typed"> </span>
         </h2>
      </div>
@@ -141,5 +162,9 @@ a{
 </div>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="dad.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
