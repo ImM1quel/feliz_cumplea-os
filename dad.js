@@ -1,7 +1,7 @@
 const typed = new Typed('.typed', {
 	strings: [
 		'',
-		'<i class="escrito">Que tengas un lindo día</i>'
+		'<i class="escrito">Que tengas un lindo día</i>','<i class"escrito">Feliz cumpleaños</i>'
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
